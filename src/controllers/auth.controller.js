@@ -1,5 +1,6 @@
 import {generateToken} from '../lib/utlis.js';
-import User from "../models/user.model.js";
+// import User from "../models/user.model.js";
+import User from '../models/user.model.js';
 import bcrypt from "bcrypt";
 
 export const signup = async (req, res) => {
